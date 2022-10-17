@@ -4,114 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toggle Multiple Passwords Visibilityin Multiple Forms</title>
+    <title>Character Count</title>
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h2>Change Username</h2>
-    <p>Enter your username and password to change your username.</p>
+    <label for="text">Enter your text below.</label>
+    <textarea id="text"></textarea>
 
-    <form>
-      <div>
-        <label for="username">Username</label>
-        <input type="text" name="username" />
-      </div>
-
-      <div>
-        <label for="password">Password</label>
-        <input type="password" name="password" />
-      </div>
-
-      <div>
-        <label for="show-password"> Show password </label>
-        <input type="checkbox" id="show-password" name="show-password" />
-      </div>
-
-      <p>
-        <button type="submit">Change Username</button>
-      </p>
-    </form>
-
-    <h2>Change Password</h2>
-    <p>Enter your current password and new password below.</p>
-
-    <form>
-      <div>
-        <label for="current-password">Current Password</label>
-        <input type="password" name="current-password" />
-      </div>
-
-      <div>
-        <label for="new-password">New Password</label>
-        <input type="password" name="new-password" />
-      </div>
-
-      <div>
-        <label for="show-passwords"> Show passwords </label>
-        <input type="checkbox" id="show-passwords" name="show-passwords" />
-      </div>
-
-      <p>
-        <button type="submit">Change Passwords</button>
-      </p>
-    </form>
-
-    <h2>Change Password</h2>
-    <p>Enter your current password and new password below.</p>
-
-    <form>
-      <div>
-        <label for="current-password-2">Current Password</label>
-        <input type="password" name="current-password-2" />
-      </div>
-
-      <div>
-        <label for="new-password-2">New Password</label>
-        <input type="password" name="new-password-2" />
-      </div>
-
-      <div>
-        <label for="repeat-new-password-2">Repeat New Password</label>
-        <input type="password" name="repeat-new-password-2" />
-      </div>
-
-      <div>
-        <label for="show-passwords-2"> Show passwords </label>
-        <input type="checkbox" id="show-passwords-2" name="show-passwords-2" />
-      </div>
-
-      <p>
-        <button type="submit">Change Passwords</button>
-      </p>
-    </form>
-
-    <h2>Change Password</h2>
-    <p>Enter your current password and new password below.</p>
-
-    <form>
-      <div>
-        <label for="current-password-2">Current Password</label>
-        <input type="password" name="current-password-2" />
-      </div>
-
-      <div>
-        <label for="new-password-2">New Password</label>
-        <input type="password" name="new-password-2" />
-      </div>
-
-      <div>
-        <label for="repeat-new-password-2">Repeat New Password</label>
-        <input type="password" name="repeat-new-password-2" />
-      </div>
-
-      <div>
-        <label for="show-passwords-3"> Show passwords </label>
-        <input type="checkbox" id="show-passwords-3" name="show-passwords-3" />
-      </div>
-
-      <p>
-        <button type="submit">Change Passwords</button>
-      </p>
-    </form>
+    <p>
+      You've written
+      <strong><span id="character-count">0</span> characters</strong>.
+    </p>
   </body>
 </html>
